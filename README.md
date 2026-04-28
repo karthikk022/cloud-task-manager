@@ -82,7 +82,7 @@ graph TD
         ```
 
 ## CI/CD with GitHub Actions
-The `.github/workflows/ci.yml` file defines a GitHub Actions workflow that automatically runs on every push and pull request to the `main` branch. This workflow performs:
+The CI/CD configuration (provided in the repository structure) defines a GitHub Actions workflow that automatically runs on every push and pull request to the `main` branch. This workflow performs:
 -   **Code Linting**: Ensures code quality and adherence to standards.
 -   **Terraform Validation**: Checks Terraform configuration for syntax errors and best practices.
 -   **Docker Image Build**: Verifies that Docker images can be successfully built.
@@ -98,6 +98,9 @@ This project effectively showcases the following skills:
 -   **Problem Solving**: Designing and implementing a functional system from scratch.
 
 When presenting this project, emphasize the architectural decisions, the benefits of using IaC and containerization, and how the CI/CD pipeline ensures reliable deployments.
+
+## CI/CD Note
+*Note: The GitHub Actions workflow file is included in the project structure for you to enable in your own repository environment.*
 
 ## Future Enhancements
 -   Implement the Notification Service to process SQS messages.
